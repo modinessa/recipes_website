@@ -264,13 +264,11 @@ Navbar
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: blue; */
 }
 
 .nav-center{
   width: 90vw;
   max-width: var(--max-width);
-  /* background: red; */
 }
  .nav-header {
   height: 6rem;
@@ -365,3 +363,47 @@ Navbar
   }
 
  }
+
+ /*
+=============== 
+Page
+===============
+*/
+.page {
+  background: #94a3b8;
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-top: 2rem;
+  min-height: calc(100vh - (6rem + 4rem));
+}
+
+/*
+=============== 
+Footer
+===============
+*/
+.page-footer {
+  height: 4rem;
+  text-align: center;
+  background: var(--black);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-footer p {
+  margin-bottom: 0;
+}
+
+.footer-logo,
+.page-footer a {
+  color: var(--primary-500);
+}
+
+/*
+=============== 
+
+===============
+*/
