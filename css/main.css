@@ -160,6 +160,10 @@ ul {
 }
 .btn-block {
   width: 100%;
+} 
+
+a.active {
+  color: var(--primary-500);
 }
 
 /* alerts */
